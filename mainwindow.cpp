@@ -44,7 +44,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::openFileDialog()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("PDF-Datei"), QString(), tr("PDF (*.pdf)"));
+    QString fileName = QFileDialog::getOpenFileName(this, tr("PDF file"), QString(), tr("PDF (*.pdf)"));
     ui->fileNameEdit->setText(fileName);
     settings.setValue("fileName", fileName);
     countPages();

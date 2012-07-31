@@ -34,14 +34,14 @@
          </date>
         </property>
         <property name="displayFormat">
-         <string>dd.MM.yyyy</string>
+         <string>yyyy/MM/dd</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>Seitenziel:</string>
+         <string>Pages needed:</string>
         </property>
        </widget>
       </item>
@@ -73,14 +73,14 @@
       <item>
        <widget class="QPushButton" name="browseButton">
         <property name="text">
-         <string>Durchsuchen</string>
+         <string>Browse...</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_6">
         <property name="text">
-         <string>hat </string>
+         <string>has </string>
         </property>
        </widget>
       </item>
@@ -94,7 +94,7 @@
       <item>
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>Seiten: </string>
+         <string>pages: </string>
         </property>
        </widget>
       </item>
@@ -121,7 +121,7 @@
     <item>
      <widget class="QLabel" name="label_4">
       <property name="text">
-       <string>Seiten pro Tag</string>
+       <string>pages per day</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
