@@ -59,7 +59,7 @@ void MainWindow::countPages()
         QTextStream in(&file);
         QString line = in.readLine();
         while (!line.isNull()) {
-            havePages += line.count(QRegExp("/Type\\s+/Page($|[^s])"));
+            havePages += line.count(QRegExp("/Type\\s*/Page($|[^s])"));
             line = in.readLine();
         }
         ui->fileNameEdit->setStyleSheet("color: black");
